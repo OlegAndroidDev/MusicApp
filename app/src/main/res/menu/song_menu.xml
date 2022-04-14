@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/classicFragment"
+        android:title="@string/classic"
+        android:icon="@drawable/ic_baseline_music_note">
+    </item>
+
+    <item
+        android:id="@+id/popFragment"
+        android:title="@string/pop"
+        android:icon="@drawable/ic_baseline_mic">
+    </item>
+
+    <item
+        android:id="@+id/rockFragment"
+        android:title="@string/rock"
+        android:icon="@drawable/ic_baseline_bolt_24">
+    </item>
+
+</menu>

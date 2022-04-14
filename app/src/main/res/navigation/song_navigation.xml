@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/classicFragment"
+    android:id="@+id/song_navigation">
+
+    <fragment
+        android:id="@+id/classicFragment"
+        android:label="Classic Fragment"
+        tools:layout="@layout/fragment_classic"
+        android:name="com.example.itunesapp.views.ClassicFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/popFragment"
+        android:label="Pop Fragment"
+        tools:layout="@layout/fragment_pop"
+        android:name="com.example.itunesapp.views.PopFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/rockFragment"
+        android:label="Rock Fragment"
+        tools:layout="@layout/fragment_rock"
+        android:name="com.example.itunesapp.views.RockFragment">
+    </fragment>
+
+</navigation>
